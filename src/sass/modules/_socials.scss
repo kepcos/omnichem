@@ -1,0 +1,58 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials {
+		ul { overflow: hidden; margin: 0; list-style: none outside none; }
+		li { float: left; margin: 9px 22px 0 0;
+			&:hover {
+				.fa { color: #3a5795;
+					-webkit-transform: rotate(360deg);
+					    -ms-transform: rotate(360deg);
+					     -o-transform: rotate(360deg);
+					        transform: rotate(360deg);
+				}
+
+				.fa-twitter { color: #51b8f2; }
+				.fa-google-plus { color: #d73d32; }
+			}
+		}
+		a { display: inline-block; color: $primary;
+			.fa {
+				-webkit-transition: all 0.5s;
+				     -o-transition: all 0.5s;
+				        transition: all 0.5s;
+			}        
+		}
+}
+
+.socials-secondary ul { font-size: 0; line-height: 0; margin-right: -10px; }
+.socials-secondary li { float: none; display: inline-block; margin: 0 10px 10px 0; font-size: 16px; line-height: 1.63; vertical-align: top; }
+.socials-secondary a { width: 50px; height: 45px; text-align: center; line-height: 45px; color: #fff; 
+	-webkit-transition: all 0.5s;
+	     -o-transition: all 0.5s;
+	        transition: all 0.5s;
+}
+.socials-secondary li:hover a { opacity: .7; }
+.socials-secondary a .fa,
+.socials-secondary li:hover .fa { width: 100%; color: #fff; text-align: center;
+	-webkit-transform: none;
+	    -ms-transform: none;
+	     -o-transform: none;
+	        transform: none;
+
+	    -webkit-transition: none;
+	         -o-transition: none;
+	            transition: none;
+}
+.socials-secondary a.facebook { background-color: #3b5aa0; }
+.socials-secondary a.twitter { background-color: #51b8f2; }
+.socials-secondary a.google { background-color: #f02b2b; }
+.socials-secondary a.linkedin { background-color: #427aba; }
+.socials-secondary a.rss { background-color: #f6992b; }
+.socials-secondary a.orange { background-color: #f73c8b; }
+.socials-secondary a.pinterest { background-color: #c82121; }
+.socials-secondary a.flickr { background-color: #64c74d; }
+.socials-secondary a.youtube { background-color: #ea1111; }
+.socials-secondary a.vimeo { background-color: #1c75da; }
+

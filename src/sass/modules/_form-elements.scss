@@ -1,0 +1,64 @@
+/* ------------------------------------------------------------ *\
+	Form Elements
+\* ------------------------------------------------------------ */
+
+.sidebar input[type="text"]:focus,
+.sidebar input[type="password"]:focus,
+.sidebar input[type="date"]:focus,
+.sidebar input[type="datetime"]:focus,
+.sidebar input[type="datetime-local"]:focus,
+.sidebar input[type="month"]:focus,
+.sidebar input[type="week"]:focus,
+.sidebar input[type="email"]:focus,
+.sidebar input[type="number"]:focus,
+.sidebar input[type="search"]:focus,
+.sidebar input[type="tel"]:focus,
+.sidebar input[type="time"]:focus,
+.sidebar input[type="url"]:focus,
+.sidebar input[type="color"]:focus { background: #2c9ad8;; }
+
+::-webkit-input-placeholder { color: $primary; }
+:-moz-placeholder { color: $primary; }
+::-moz-placeholder { color: $primary; }
+:-ms-input-placeholder { color: $primary; }
+
+input[type='text'].field-date::-webkit-input-placeholder { color: $white; }
+input[type='text'].field-date:-moz-placeholder { color: $white; }
+input[type='text'].field-date::-moz-placeholder { color: $white; }
+input[type='text'].field-date:-ms-input-placeholder { color: $white; }
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea { -webkit-box-shadow: none; box-shadow: none; margin-bottom: 0; }
+
+input[type='text'].field-date { padding-right: 38px; border-color: $primary; background-color: $primary; color: $white; opacity: 1; }
+.form-controls-data-field { position: relative; font: normal normal normal 22px/1 FontAwesome; color: #fff; }
+.form-controls-data-field:after { content: "\f133"; position: absolute; top: 5px; right: 13px; pointer-events: none; }
+.form-controls-data-field .field { font-family: "Karla", sans-serif; }
+.field { opacity: 1; }
+
+.form-row { margin-bottom: 26px; }
+.form-row-alt { float: left; width: 49%; }
+.form-row-alt + .form-row-alt { margin-left: 2%; }
+.form-row-alt + .form-row-alt + .form-row { clear: both; }
+
+.textarea { height: 160px; }
+
+.form-notice { margin-top: 24px; font-size: 15px; line-height: 1.6; color: $primary; }
+.form-notice .purple { color: #a693cc; }
+
+.field.error,
+.textarea.error,
+.form-controls-data-field input[type='text'].field-date.error  { border-color: #840101; background-color: #fedddd; color: $primary; }
+
+input[type='text'].field-date.error::-webkit-input-placeholder { color: $primary; }
+input[type='text'].field-date.error:-moz-placeholder { color: $primary; }
+input[type='text'].field-date.error::-moz-placeholder { color: $primary; }
+input[type='text'].field-date.error:-ms-input-placeholder { color: $primary; }
+
+@media(max-width: $small-mobile) {
+	.form-row-alt { float: none; display: block; width: 100%; }
+	.form-row-alt + .form-row-alt { margin-left: 0; }
+}
+

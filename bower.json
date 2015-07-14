@@ -1,0 +1,8 @@
+{
+	"name": "construction",
+	"dependencies": {
+		"foundation": "5.5.1",
+		"font-awesome": "4.3.0",
+		"fitvids": "1.1.0"
+	}
+}

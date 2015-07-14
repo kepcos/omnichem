@@ -1,0 +1,27 @@
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+.intro.no-bg-img {background: $purple;}
+.intro { position: relative;}
+.intro-small { overflow: hidden; height: auto; height: 341px; }
+.intro-small.alt { background-color: #f0f4f7; }
+.intro-small img.fullsize-image { display: none; }
+.intro-small .intro-image { position: relative; height: 100%; background-attachment: fixed; -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.intro-small .row { position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 10; }
+.intro-small .intro-caption { position: absolute; top: 50%; left: 0; text-transform: uppercase;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.intro-small .intro-caption h5 { display: inline-block; padding: 13px 31px 12px; margin-bottom: -1px; background-color: $primary-bg; font-size: 15px; line-height: 1.73; color: #fff; text-transform: uppercase; font-weight: 700; }
+.intro-small .intro-caption h2 { padding: 20px 27px; border-left: 3px solid $primary-bg; background-color: #fff; }
+
+@media(max-width: $small-desktop) {
+	.intro-small .intro-caption { left: 15px; }
+}
+
+@media(max-width: $tablet) {
+	.intro-small { min-height: 200px; }
+	.intro-small .intro-image { position: absolute; top: 0; left: 0; width: 100%; background-position: 0 0 !important; background-attachment: scroll; -webkit-background-size: cover;  background-size: cover; }
+}

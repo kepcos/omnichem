@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\
+	Icons
+\* ------------------------------------------------------------ */
+
+.section-ribbon i { font-size: 80px; color: $purple; }
+
+.section-ribbon i.white  { font-size: 80px; color: $white; }
+
+.ico-phone2 { width: 35px; height: 37px; background-position: -112px -91px; }
+.ico-volume { width: 63px; height: 53px; background-position: 0 -68px; }
+
+@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (   min--moz-device-pixel-ratio: 2),
+	only screen and (     -o-min-device-pixel-ratio: 2/1),
+	only screen and (        min-device-pixel-ratio: 2),
+	only screen and (                min-resolution: 192dpi),
+	only screen and (                min-resolution: 2dppx)  
+{
+	.ico { }
+}

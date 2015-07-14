@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\
+	Helpers
+\* ------------------------------------------------------------ */
+.alignleft { float: left; }
+.alignright { float: right; }
+.hidden { display: none; visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after { display: table; content: ' '; }
+.clearfix:after { clear: both; }
+
+/* ------------------------------------------------------------ *\
+	FullSize Image
+\* ------------------------------------------------------------ */
+
+.fullsize-image-container { -webkit-background-size: cover; background-size: cover; background-position: 0 0; background-repeat: no-repeat; }
+.fullsize-image { display: none; }
+
+@media(max-width: $mobile) {
+	.mobile-hidden { display: none; }
+}

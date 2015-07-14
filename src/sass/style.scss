@@ -1,0 +1,55 @@
+/*
+Theme Name: Health and Medical
+Author: Victor Tihai
+Author URI: https://wplook.com/
+Description: Premium HTML template for Health and Medical Institutions, dentist, etc.
+Version: 1.0.0
+*/
+
+/* TABLE OF CONTENT
+- [ Variables;
+- [ Settings;
+- [ Foundation;
+- [ Font Awesome;
+- [ Fonts;
+- [ Global;
+- [ Helpers;
+- [ Icons;
+- [ Icons Secondary;
+- [ Animate;
+- [ Layout;
+--- [ Intro;
+--- [ Header;
+--- [ Sections;
+--- [ Main;
+--- [ Sidebar;
+--- [ Footer;
+- [ Modules;
+--- [ Add/Banner;
+--- [ Audio;
+--- [ Breadcrumbs;
+--- [ Buttons;
+--- [ Form Elements;
+--- [ Pagination;
+--- [ Phone;
+--- [ Sliders;
+--- [ Socials;
+--- [ Subscribe;
+--- [ Tabs;
+--- [ Media Element Player;
+--- [ Search;
+*/
+
+
+@import 'variables';
+@import 'settings';
+@import 'bower_components/foundation/scss/foundation';
+@import 'fonts';
+@import 'global';
+@import 'helpers';
+@import 'icons';
+@import '_icons-secondary';
+@import 'animate';
+@import 'layout/_layout';
+@import 'modules/_modules';
+

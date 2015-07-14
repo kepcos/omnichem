@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<title>OMNICHEM - </title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="header-bar row">
+			<div class="columns large-6 medium-6 mobile-hidden">
+				<p>Productos Químicos y Hospitalarios</p>
+			</div><!-- /.columns large-6 -->
+
+			<div class="columns large-6 medium-6">
+				<div class="socials">
+					<ul>
+						<li>
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<i class="fa fa-google-plus"></i>
+							</a>
+						</li>
+					</ul>
+				</div><!-- /.socials -->
+
+				<a href="#section-book-appointment" class="button btn-light-blue waypoint">CONTACTENOS</a>
+			</div><!-- /.columns large-6 -->
+		</div><!-- /.header-bar row -->
+
+		<div class="row">
+			<div class="columns large-3 medium-12">
+				<a href="index.html" class="logo">
+					<img src="assets/images/logo.png" width="392" height="122" alt="Health &amp; Medical">
+				</a>
+			</div><!-- /.columns large-3 -->
+
+			<div class="columns large-7 medium-8">
+				<a href="#" class="btn-menu">
+					<span></span>
+				</a>
+
+				<nav class="nav">
+					<ul class="clearfix">
+						<li class="current">
+							<a href="index.html">Home</a>
+						</li>
+
+						<li>
+							<a href="la-empresa.html">LA EMPRESA</a>
+						</li>
+						
+
+<!--
+
+						<li>
+							<a href="services.html">Services</a>
+								<ul class="nav-dropdown">
+									<li>
+										<a href="single-services.html">
+											<i class="fa fa-plus"></i>
+											Single Service
+										</a>
+									</li>
+									
+									<li>
+										<a href="#">
+											<i class="fa fa-plus"></i>
+											Cancer Care
+										</a>
+									</li>
+									
+									<li>
+										<a href="#">
+											<i class="fa fa-plus"></i>
+											Rehabilitation Center
+										</a>
+									</li>
+									
+									<li>
+										<a href="#">
+											<i class="fa fa-plus"></i>
+											Transplant Services
+										</a>
+									</li>
+									
+									<li>
+										<a href="#">
+											<i class="fa fa-plus"></i>
+											Emergency Services
+										</a>
+									</li>
+								</ul>
+						</li>
+						
+						<li>
+							<a href="#">Pages</a>
+							<ul class="nav-dropdown">
+								<li>
+									<a href="page-left-sidebar.html">
+										<i class="fa fa-plus"></i>
+										Left Sidebar
+									</a>
+								</li>
+								
+								<li>
+									<a href="page-right-sidebar.html">
+										<i class="fa fa-plus"></i>
+										Right Sidebar
+									</a>
+								</li>
+								
+								<li>
+									<a href="page-full-width.html">
+										<i class="fa fa-plus"></i>
+										Full Width
+									</a>
+								</li>
+								
+								<li>
+									<a href="404.html">
+										<i class="fa fa-plus"></i>
+										404 Error page
+									</a>
+								</li>
+							</ul>
+						</li>
+						
+						<li>
+							<a href="news.html">News</a>
+							<ul class="nav-dropdown">
+								<li>
+									<a href="single-news.html">
+										<i class="fa fa-plus"></i>
+										Single post
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+
+						<li>
+							<a href="page-html-elements.html">
+								Elements
+							</a>
+						</li>
+
+
+					-->
+						
+						<li>
+							<a href="contactenos.html">Contactenos</a>
+						</li>
+					</ul>
+				</nav><!-- /.nav -->
+			</div><!-- /.columns large-6 -->
+
+			<div class="columns large-2 medium-4 mobile-hidden">
+				<p class="phone">
+					<i class="fa fa-mobile"></i>
+					<small>Call Us</small>
+					<a href='tel: 514 908 9010'>514 908 9010</a>					
+				</p><!-- /.phone -->
+			</div><!-- /.columns large-3 -->
+		</div><!-- /.row -->
+	</header><!-- /.header -->	

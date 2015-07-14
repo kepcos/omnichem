@@ -1,0 +1,41 @@
+/* ------------------------------------------------------------ *\
+	Ad
+\* ------------------------------------------------------------ */
+.ad { position: relative; z-index: 50; height: 120px; padding-left: 230px; background-color: $primary-bg; }
+.ad-image { position: absolute; bottom: 0; left: 27px; width: 189px; }
+.ad-image img { width: 100%; height: auto; }
+.ad-head,
+.ad-actions,
+.ad-contacts { display: inline-block; vertical-align: middle; }
+.ad-head { margin-top: 35px; }
+.ad-head h3 { margin-bottom: 5px; color: #fff; }
+.ad-head p { color: #fff; }
+.ad-actions { margin-left: 43px; }
+.ad-actions .button { min-width: 170px; text-align: center; }
+.ad-contacts { margin-left: 63px; }
+.ad-contacts .phone { min-width: 300px; color: #fff; }
+.ad-contacts .phone .fa { margin-top: -17px; font-size: 70px; vertical-align: bottom; }
+.ad-contacts .phone small { margin-top: -8px; color: #fff; }
+.ad-contacts .phone a { font-size: 36px; line-height: 1; color: #fff; letter-spacing: 0.05em; }
+
+@media(max-width: $small-desktop) {
+	.ad { height: 140px; margin: 0 -3% 0 0; }
+	.ad-actions,
+	.ad-head,
+	.ad-contacts { width: 30%; margin: 15px 3% 0 0; }
+}
+
+@media(max-width: $tablet) {
+	.ad { height: 260px; margin: 0; }
+	.ad-actions,
+	.ad-head,
+	.ad-contacts { display: block; width: 100%; margin: 0; padding: 10px 0; }
+	.ad-contacts .phone { float: none; }
+}
+
+@media(max-width: $mobile) {
+	.ad { padding: 13px 20px 0; height: auto; text-align: center; }
+	.phone { display: inline-block; }
+
+	.ad-head p { margin-bottom: 0; }
+}

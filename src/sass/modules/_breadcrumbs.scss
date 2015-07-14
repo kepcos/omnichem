@@ -1,0 +1,10 @@
+/* ------------------------------------------------------------ *\
+	Breadcrumbs
+\* ------------------------------------------------------------ */
+
+.breadcrumbs { border: none; margin-bottom: 17px; background: none; }
+.breadcrumbs a,
+.breadcrumbs span { font-family: "Karla", sans-serif; font-size: 16px; line-height: 1.63; color: $primary; font-weight: 400; text-transform: none; }
+.breadcrumbs > *:before { display: none; }
+.breadcrumbs span { margin: 0 10px; }
+.breadcrumbs .current { color: #8a6fc0; }

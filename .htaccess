@@ -1,0 +1,8 @@
+Options +Includes
+AddHandler server-parsed .shtml .html .htm
+AddType text/html .html
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+AddHandler server-parsed .html
+AddType application/x-httpd-cgi .cgi
+Options Indexes FollowSymLinks Includes

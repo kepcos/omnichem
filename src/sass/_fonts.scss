@@ -1,0 +1,60 @@
+/* ------------------------------------------------------------ *\
+	Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('assets/fonts/dosisbold-webfont.eot');
+    src: url('assets/fonts/dosisbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/dosisbold-webfont.woff') format('woff'),
+         url('assets/fonts/dosisbold-webfont.ttf') format('truetype'),
+         url('assets/fonts/dosisbold-webfont.svg#dosisbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('assets/fonts/dosislight-webfont.eot');
+    src: url('assets/fonts/dosislight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/dosislight-webfont.woff') format('woff'),
+         url('assets/fonts/dosislight-webfont.ttf') format('truetype'),
+         url('assets/fonts/dosislight-webfont.svg#dosislight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('assets/fonts/karlabold-webfont.eot');
+    src: url('assets/fonts/karlabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/karlabold-webfont.woff') format('woff'),
+         url('assets/fonts/karlabold-webfont.ttf') format('truetype'),
+         url('assets/fonts/karlabold-webfont.svg#karlabold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('assets/fonts/karlaregular-webfont.eot');
+    src: url('assets/fonts/karlaregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/karlaregular-webfont.woff') format('woff'),
+         url('assets/fonts/karlaregular-webfont.ttf') format('truetype'),
+         url('assets/fonts/karlaregular-webfont.svg#karlaregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('assets/fonts/karlaitalic-webfont.eot');
+    src: url('assets/fonts/karlaitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/karlaitalic-webfont.woff') format('woff'),
+         url('assets/fonts/karlaitalic-webfont.ttf') format('truetype'),
+         url('assets/fonts/karlaitalic-webfont.svg#karlaitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+
+}

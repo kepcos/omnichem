@@ -1,0 +1,90 @@
+/* ------------------------------------------------------------ *\
+	Sidebar
+\* ------------------------------------------------------------ */
+
+.widgets { margin: 0; list-style: none outside none; }
+.widget { padding: 36px 33px 41px; margin-bottom: 30px; background-color: #fff; }
+.widget h4 { font-size: 14px; line-height: 1.86; color: #738497; text-transform: uppercase; }
+.widget h3 { margin-bottom: 20px; text-transform: uppercase; }
+.widget-search,
+.widget-form { background-color: $primary-bg; }
+.widget-search h4,
+.widget-form h4 { color: #0d73ad; }
+.widget-search h3,
+.widget-form h3 { color: #fff; }
+
+.widget ul { list-style: none outside none; margin: 0; }
+
+.list-plus a { font-size: 16px; line-height: 2.63; color: $primary; font-weight: 700;text-transform: uppercase; }
+.list-plus a:hover { opacity: .7; }
+
+.list-simple-posts { list-style: none outside none; margin-left: 0px; }
+.list-simple-posts li { padding-bottom: 25px; border-bottom: 1px solid  #dee3e8; margin-bottom: 25px; }
+.list-simple-posts li:last-child { margin-bottom: 0; border: none; padding-bottom: 0; }
+.list-simple-posts a { display: block;
+	-webkit-transition: all 0.4s;
+	     -o-transition: all 0.4s;
+	        transition: all 0.4s;
+}
+.list-simple-posts .image { float: left; width: 68px; height: 59px; margin-right: 18px; }
+.list-simple-posts .image img { width: 100%; height: auto; }
+.list-simple-posts span { overflow: hidden; display: block; margin-bottom: 0; font-family: "Karla", sans-serif; font-size: 14px; line-height: 1.5; color: $primary; text-transform: uppercase; }
+.list-simple-posts .meta { text-transform: none; }
+.list-simple-posts li:hover a { opacity: .8; }
+
+.list-tags { font-size: 0; line-height: 0; margin-right: -9px; list-style: none outside none; } 
+.list-tags li { display: inline-block; margin: 0 9px 9px 0; } 
+.list-tags a { display: block; padding: 0 9px; font-family: "Karla", sans-serif; font-size: 14px; line-height: 31px; background-color: #dee3e8; font-weight: 700; text-transform: uppercase; color: $primary;
+	-webkit-transition: all 0.4s;
+	     -o-transition: all 0.4s;
+	        transition: all 0.4s;
+} 
+.list-tags .current a,
+.list-tags li:hover a { background-color: #856cb9; color: $white; } 
+
+.widget-form .form-row { margin-bottom: 10px; }
+.widget-form .field,
+.widget-form .textarea,
+.sidebar .widget-form .field-date { display: inline-block; height: 42px; width: 100%; padding: 0 16px; margin: 0; border: none; background-color: #2c9ad8; font-size: 0.875rem; -webkit-box-shadow: none; box-shadow: none; color: $white; vertical-align: middle; }
+.widget-form .form-controls:after { top: 8px; }
+.widget-form .textarea { height: 82px; padding: 10px 16px; }
+.widget-form .button { min-width: 220px; }
+
+.widget-form .field::-webkit-input-placeholder,
+.widget-form .textarea::-webkit-input-placeholder { color: $white; }
+.widget-form .field:-moz-placeholder,
+.widget-form .textarea:-moz-placeholder { color: $white; }
+.widget-form .field::-moz-placeholder,
+.widget-form .textarea::-moz-placeholder { color: $white; }
+.widget-form .field:-ms-input-placeholder,
+.widget-form .textarea:-ms-input-placeholder { color: $white; }
+
+.widget-form .form .field:focus,
+.widget-form .form .textarea:focus { color: $primary; }
+
+.widget-services { padding: 0; }
+.widget-services .list-services { overflow: hidden; }
+.widget-services .list-services li { overflow: hidden; position: relative; width: 50%; height: 150px; }
+.widget-services .list-services li + li + li { border-top: 1px solid  #dee3e8; }
+.widget-services .list-services li:nth-child(odd) { border-right: 1px solid  #dee3e8; }
+.widget-services .list-services a { position: absolute; top: 50%; left: 0; right: 0;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+.widget-video { padding: 0; }
+.widget-video .video { position: relative; width: 100%; height: auto; }
+.widget-video .video video { width: 100%; height: auto; margin-bottom: -8px; cursor: pointer; }
+.widget-video .video .btn-play { position: absolute; top: 50%; left: 50%; pointer-events: none; cursor: pointer;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+@media(max-width: $tablet) {
+	.widget-form { padding: 26px 23px 31px; }
+	.widget-form .button { min-width: 0; width: 100%; }
+}

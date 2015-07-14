@@ -1,0 +1,72 @@
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section { display: block; }
+
+
+html,
+body { height: 100%; }
+
+html { overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { min-width: 320px; font-family: "Karla", sans-serif; font-size: 16px; line-height: 1.63; color: $primary; -webkit-font-smoothing:antialiased; }
+
+a { color: #51b8f2; text-decoration: none; }
+a:hover { text-decoration: none; }
+
+img { border: 0; vertical-align: middle; }
+
+button,
+input,
+select,
+textarea { font-family: inherit; font-size: inherit; color: inherit; -webkit-font-smoothing:antialiased; box-sizing: border-box; background: #fff; }
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+label[for] { cursor: pointer; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { padding: 0; border: 0; }
+
+button { overflow: visible; }
+textarea { overflow: auto; resize: none; }
+
+strong { font-family: 'Proxima Nova Bold', sans-serif; }
+small { font-size: 80%; }
+
+ul li ul,
+ul li ol { margin-left: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin: 0; }
+
+h1,
+h2,
+h3 { font-family: "Dosis", sans-serif; font-size: 36px; line-height: 1; color: $primary; font-weight: 700; }
+
+h2 { font-size: 30px; }
+h3 { font-size: 24px; line-height: 1.08; }
+h4 { font-size: 16px; font-weight: 400; }
+h5 { font-size: 15px; font-weight: 400; }
+h6 { font-size: 14px; line-height: 1.86; font-weight: 400; }
+
+/* ------------------------------------------------------------ *\
+	Containers
+\* ------------------------------------------------------------ */
+.wrapper { overflow: hidden; position: relative; min-height: 100%; }
+
+@media(max-width: $tablet) {
+	h1 { font-size: 30px; }
+	h2 { font-size: 24px; }
+	h3 { font-size: 18px; }
+}

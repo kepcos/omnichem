@@ -1,0 +1,19 @@
+/* ------------------------------------------------------------ *\
+	Paging
+\* ------------------------------------------------------------ */
+
+.paging { margin-top: 77px; font-size: 0; line-height: 0; text-align: center; }
+.paging ul { display: inline-block; margin: 0; list-style: none outside none; }
+.paging li { display: inline-block; }
+.paging li + li { margin-left: 9px; }
+.paging a { display: block; min-width: 46px; height: 42px; padding: 0 5px; background-color: #d2dde5; font-family: "Karla", sans-serif; font-size: 16px; line-height: 42px; color: $primary; font-weight: 700; text-align: center;
+	-webkit-transition: all 0.5s;
+	     -o-transition: all 0.5s;
+	        transition: all 0.5s;
+}
+.paging .current a,
+.paging li:hover a { background-color: $primary-bg; color: #fff; }
+
+@media(max-width: $mobile) {
+	.paging { margin: 0; }
+}

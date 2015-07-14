@@ -1,0 +1,43 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer { position: absolute; bottom: 0; left: 0; right: 0; z-index: 60; height: 445px; padding-top: 83px; background-color: $secondary-bg; }
+.footer h5 { margin-bottom: 48px;  text-transform: uppercase; color: #fff; font-weight: 400; }
+.list-links { margin: 0; list-style: none outside none;
+	-webkit-column-count: 2;
+	   -moz-column-count: 2;
+    		column-count: 2;
+	li { margin-bottom: 4px; }
+    a { color: #c2cfde; font-size: 15px; line-height: 2; text-transform: uppercase;
+    	-webkit-transition: all 0.3s;
+    	     -o-transition: all 0.3s;
+    	        transition: all 0.3s;
+		&:hover { color: #fff; }
+    }
+}
+
+
+.list-work-times { margin: -20px 0 0; list-style: none outside none; }
+.list-work-times li + li { border-top: 1px solid  #5f7286; }
+.list-work-times p { overflow: hidden; margin-bottom: 0; font-weight: 400; }
+.list-work-times p span { float: left; line-height: 3.2; color: #c2cfde; }
+.list-work-times p span + span { float: right; margin-top: 2px; font-size: 14px; line-height: 3.43; color: $white; }
+.footer p { color: #c2cfde; }
+.footer .contacts p { margin-bottom: 25px; }
+.footer .contacts ul { margin: 0; list-style: none outside none; }
+.footer .contacts ul p { margin-bottom: 0; }
+.footer .contacts ul p span:first-child { color: $white; }
+
+.copyright { padding-top: 20px; border-top: 1px solid #5c6f83; margin-top: 97px; text-align: center; }
+
+@media(max-width: $tablet) {
+	.footer { position: static; height: auto; padding: 30px 0 0; }
+	.footer .columns { margin-bottom: 20px; }
+	.footer h5 { margin-bottom: 10px; }
+	.copyright { margin-top: 20px; }
+} 
+
+#section-book-appointment, .section-doctors, .section-services, .section-testimonials, .section-updates{
+	display:none;
+}

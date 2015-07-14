@@ -1,0 +1,9 @@
+/* ------------------------------------------------------------ *\
+	Phone
+\* ------------------------------------------------------------ */
+.phone { float: right; margin: 18px 0px 0 0; }
+.phone .fa { float: left; margin-right: 14px; font-size: 46px; }
+.phone small,
+.phone a { display: block; color: $primary; }
+.phone small { margin-top: 3px; font-size: 14px; line-height: 1; }
+.phone a { font-family: "Dosis", sans-serif; font-size: 24px; line-height: 1.08; letter-spacing: 0.05em; font-weight: 700; }

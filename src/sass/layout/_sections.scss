@@ -1,0 +1,341 @@
+/* ------------------------------------------------------------ *\
+	Sections
+\* ------------------------------------------------------------ */
+
+.section .section-head h2,
+.section .section-head h6 { text-transform: uppercase; margin-top: 10px;}
+
+/*Section Ribbon*/
+.section-ribbon { position: absolute; top: -36px; left: 50%; z-index: 50; width: 140px; margin-left: -70px; background-color: $white; text-align: center; }
+.section-ribbon .ico { position: relative; z-index: 50; }
+.section-ribbon:before { content: ''; position: absolute; bottom: 100%; left: 0; width: 0; height: 0;border-style: solid; border-width: 0 70px 40px 70px; border-color: transparent transparent $white transparent; }
+
+/*Section Book Appointment*/
+.section-book-appointment { position: relative; padding: 100px 0 115px; }
+.form-appointment .form-head { margin-bottom: 70px; }
+.form-appointment .form-head .fa-calendar { float: left; margin: 3px 11px 0 0; font-size: 30px; }
+.form-appointment .form-head h3 { overflow: hidden; text-transform: uppercase; }
+.form-appointment .form-head h3 small { display: block; font-family: "Karla", sans-serif; font-weight: 400; font-size: 14px; line-height: 1.06; margin-top: 10px;}
+.form-appointment .form-head h6 { color: $primary; margin-top: 10px; text-align: center; text-transform: uppercase;}
+.form-appointment .form-head h2 { text-align: center; text-transform: uppercase;}
+.form-appointment .phone { min-width: 200px; margin: 0; }
+
+.form-appointment .form-row { margin-bottom: 26px; }
+.form-appointment .form-cols { margin-right: -2%; }
+.form-appointment .form-col { float: left; width: 23%; margin-right: 2%; }
+.form-appointment .form-actions { text-align: center; }
+.form-appointment .form-actions .button { min-width: 280px; }
+
+/*Section Information*/
+.section-information { position: relative; }
+.section-information h2 { color: $white; text-transform: uppercase; }
+.section-information:after,
+.section-information:before { content: ''; position: absolute; top: 0; bottom: 0; width: 50%; z-index: 0; }
+.section-information .button { min-width: 170px; text-align: center; }
+
+.section-information:after { left: 0; background: $primary; }
+.section-information:before { right: 0;background: $primary-bg; }
+.section-information .row { position: relative; z-index: 1; }
+
+.section-about-us { position: relative; min-height: 620px; padding-top: 104px; margin-right: -15px; -webkit-background-size: auto auto; background-size: auto auto; background-position: bottom right; }
+.section-about-us h6 { color: #9dadbf; }
+.section-about-us h2 { margin-bottom: 32px; }
+.section-about-us h3 { max-width: 370px; margin-bottom: 38px; font-family: "Karla", sans-serif; color: #cfd9e4; font-weight: 400; }
+.section-about-us p { max-width: 370px; margin-bottom: 32px; color: #aab9ca; }
+
+.section-features { position: relative; min-height: 620px; padding: 100px 0 0 56px; }
+.section-features h6 { color: #0d679a; }
+.section-features h2,
+.section-features p { margin-bottom: 28px; }
+.section-features p { color: #d0eeff; }
+
+.list-features {
+	margin: 0 0 20px; list-style: none outside none;
+    -webkit-column-count: 2;
+	   -moz-column-count: 2;
+			column-count: 2;
+
+	li { margin-bottom: 8px; }
+	li p { margin-bottom: 0; font-family: "Karla", sans-serif; font-weight: 700; text-transform: uppercase; color: $white; }
+	a { color: $white; }
+	a:hover { color: $blue!important;}
+}
+
+/*Section Doctors*/
+.section-doctors { position: relative; z-index: 4; padding: 78px 0 155px; }
+.section-doctors-alt { padding: 0; }
+.section-doctors-alt .row.row-alt,
+.section-doctors-alt .row:last-child { margin-bottom: 0; }
+.section-doctors .section-head { margin-bottom: 55px; text-align: center; }
+.section-doctors h6 { color: $primary; margin-top: 10px;}
+.section-doctors .section-actions { margin-top: 70px; text-align: center; }
+
+.section-doctors-alt .row { margin-bottom: 40px; }
+.doctor-name { display: inline-block; padding: 16px 33px 15px; background-color: $primary-bg; font-family: "Karla", sans-serif; color: $white; font-weight: 700;  text-transform: uppercase;}
+.doctor-box { border-left: 3px solid  $primary-bg; background-color: #f0f5fa; }
+.section-doctors-alt .doctor-box { background-color: $white; }
+.doctor-image { margin-bottom: 38px; }
+.doctor-image:hover { opacity: .8; }
+.doctor-image img { width: 100%; max-height: 255px; height: auto; line-height: 255px; vertical-align: middle; }
+.doctor-body { overflow: hidden; padding: 0 26px 26px; }
+.doctor-body h6 { float: left; margin-bottom: 30px; margin-top: 0px; max-width: calc(100% - 86px); text-transform: uppercase;}
+.doctor-body .socials { float: right; }
+.doctor-body .socials li { margin: 3px 0 0; }
+.doctor-body .socials li + li { margin-left: 22px; }
+.doctor-body p { clear: both; }
+.section-doctors-alt .ad { margin-top: 179px; }
+/* Doctor profile page */
+.doctor-profile { margin-bottom: 30px;}
+.doctor-program { background: $purple; padding: 34px; }
+.event-body .doctor-program h4 {color: #fff; margin: 0 0 10px 0; padding: 0px;}
+.doctor-program ul { color: $purple-light;}
+.doctor-program li {font-size: 14px; border-bottom: 1px solid $purple-light; padding: 7px 5px 7px 10px;}
+.doctor-program ul span { float: right; color: $white;}
+
+
+/*Section Services*/
+.section-services { position: relative; z-index: 5; padding-bottom: 123px; }
+.section-services .section-ribbon { background-color: $purple; }
+.section-services .section-ribbon:before {  border-color: transparent transparent $purple transparent; }
+.section-services .section-head { padding: 78px 0 42px; background-color: $purple; text-align: center; }
+.section-services .section-head h2 { color: $white; }
+.section-services .section-head h6 { color: #3e305a; margin-top: 10px;}
+
+.section-services .ad { margin-top: 105px; }
+.section-services.section-doctors { padding-bottom: 0; }
+.section-services.section-doctors .row { margin-bottom: 31px; }
+
+.service-image { overflow: hidden; max-height: 225px; }
+.service-image:hover { opacity: .8; }
+.service-image a { display: block; }
+.service-image img { width: 100%; }
+.service-body { padding: 34px 32px; background-color: $white; }
+.service-body h6 { margin-bottom: 22px; color: $primary; text-transform: uppercase; }
+.service-body p { margin-bottom: 25px; }
+
+/*Section Testimonials*/
+.section-testimonials { position: relative; z-index: 5; padding: 80px 0 148px; background-color: #3b4754; }
+.section-testimonials .section-head { margin-bottom: 50px; text-align: center; }
+.section-testimonials .section-head .fa { margin-bottom: 17px; font-size: 40px; color: $primary-bg; }
+.section-testimonials .section-head h2 { margin-bottom: 5px; color: $white; }
+.section-testimonials .section-head h6 { font-family: "Karla", sans-serif; color: #a7b9cd; }
+.section-testimonials .row { position: relative; }
+
+/*Section Updates*/
+.section-updates { position: relative; z-index: 30; padding: 80px 0 111px; }
+.section-updates .section-head { margin-bottom: 50px; text-align: center; }
+.section-updates .section-head h6 { color: $primary; }
+.section-updates .section-actions { padding-top: 70px; text-align: center; }
+.section-updates .section-actions .button { min-width: 280px; }
+
+.event-date { display: inline-block; padding: 0 32px; background-color: $primary-bg; }
+.event-date p { margin-bottom: 0; font-size: 15px; line-height: 52px; font-weight: 700; color: $white;  }
+.event-box { border-left: 3px solid  $primary-bg; }
+.event-image a { display: block; }
+.event-image a:hover { opacity: .8; }
+.event-image img { width: 100%; }
+.event-entry { padding: 30px 28px 27px; background-color: #f0f5fa; }
+.event-entry h4 { margin-bottom: 12px; }
+.event-entry h4 a { color: $primary; font-weight: bold;}
+.event-entry p { margin-bottom: 15px; }
+
+.list-events { margin: 52px 0 0; font-size: 0; line-height: 0; margin-right: -28px; list-style: none outside none; }
+.list-events li { display: inline-block; width: 270px; margin: 0 28px 25px 0; font-size: 16px; line-height: 1.63; vertical-align: top; }
+.list-events .image,
+.list-events a { display: block; }
+.list-events a:hover { opacity: .8; }
+.list-events .image { margin-bottom: 10px; }
+.list-events .image img { width: 100%; height: auto; }
+.list-events .title { font-size: 16px; line-height: 1.3; font-weight: 700; color: $primary; }
+
+/*Section Events*/
+.section-events { background-color: #f0f4f7; }
+.events { margin: 0; list-style: none outside none; }
+.event { margin-bottom: 39px; }
+
+.event-image { overflow: hidden; position: relative; }
+.event-image a { display: block; }
+.event-image a:hover { opacity: .8; }
+.event-image img { width: 100%; height: auto; }
+.event-slider .bx-wrapper .bx-controls .bx-prev { left: 27px; }
+.event-slider .bx-wrapper .bx-controls .bx-next { right: 27px; }
+.event-slider .bx-wrapper .bx-controls .bx-prev:before,
+.event-slider .bx-wrapper .bx-controls .bx-next:before { font-size: 36px; }
+.event-slider .bx-wrapper .bx-prev:hover,
+.event-slider .bx-wrapper .bx-next:hover { color: $white; opacity: 1; }
+
+.event-body,
+.event-head { padding: 39px 38px 39px 30px; background-color: $white; }
+.event-body h4,
+.event-head h4 { margin-bottom: 25px; line-height: 1.69; font-family: "Karla", sans-serif; text-transform: uppercase; font-weight: 700; color: $primary; }
+.event h3 { margin: 20px 0 20px; font-family: "Karla", sans-serif; font-size: 21px; line-height: 1.52; color: $purple; text-transform: uppercase; }
+.event-body h4 a { color: $primary; }
+.event-body h4 a:hover { text-decoration: underline; }
+.event-body p { margin-bottom: 13px; }
+.article-single-event .event-body p { margin-bottom: 25px; }
+.event-meta { margin-bottom: 0; background-color: #f8fbfd; }
+.list-event-meta { overflow: hidden; display: table; width: 100%; margin-bottom: 0; list-style: none outside none; }
+.list-event-meta li { display: table-cell; padding: 12px 17px; }
+.list-event-meta li + li { border-left: 1px solid  #dee3e8; }
+.list-event-meta a { font-size: 14px; color: $primary;
+	-webkit-transition: all 0.4s;
+	     -o-transition: all 0.4s;
+	        transition: all 0.4s;
+}
+.list-event-meta a .fa { margin-right: 5px; }
+.list-event-meta a.link { font-weight: 700; color: #856cb8; text-transform: uppercase; }
+.list-event-meta a:hover { opacity: .7; }
+
+.event-image .video { position: relative; margin-bottom: -7px; }
+.event-image .video video { width: 100%; height: auto; cursor: pointer; }
+.video-poster {width: 100%; height: auto;}
+.event-image .video .btn-play { position: absolute; top: 50%; left: 50%; pointer-events: none; cursor: pointer;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.event blockquote { padding: 12px 0 0; border: none; }
+.event blockquote .fa { margin-bottom: 19px; font-size: 48px; color: $primary-bg; }
+.event blockquote span { display: block; font-family: "Karla", sans-serif; font-size: 21px; line-height: 1.43; font-style: italic; font-weight: 400; }
+.event-audio { height: 71px; width: 100%; background-color: #856cb9; }
+.event-body > .fa { margin-bottom: 20px; font-size: 48px; color: $primary-bg; }
+.event-body .link { color: $primary; font-size: 16px; line-height: 1.63; text-decoration: underline; }
+.event-body .link:hover { text-decoration: none; }
+
+/*Article Single Event*/
+.article-single-event .list-checks { margin-bottom: 30px;
+	-webkit-column-count: 2;
+       -moz-column-count: 2; 
+    		column-count: 2;
+}
+.article-single-event .list-checks p { margin-bottom: 0; }
+.article-single-event blockquote { padding: 40px 37px; border-left: 3px solid  #856cb9; margin-bottom: 35px; background-color: #f4fbff; }
+
+/*Section Comments*/
+.section-event-comments .section-body { padding: 40px 31px; margin-bottom: 39px; }
+.comments { margin: 0; list-style: none outside none; }
+.comments .comments { padding-top: 30px; border-top: 1px solid  #dee3e8; margin: 30px 0 0 131px; }
+.comment,
+.comment-body,
+.comments { overflow: hidden; }
+.comment + .comment { padding-top: 36px; border-top: 1px solid  #dee3e8; margin-top: 34px; }
+.comment-image { float: left; width: 110px; margin-right: 21px; }
+.comment-image a { display: block; }
+.comment-image a:hover { opacity: .8; }
+.comment-image img { width: 100%; height: auto; }
+.comment h4 { float: left; margin-bottom: 10px; }
+.comment h4 a { color: $primary; }
+.comment h4 .meta { display: inline-block; margin-left: 15px; font-size: 14px; line-height: 1.5; vertical-align: bottom; text-transform: none; font-weight: 400; }
+.comment .link { float: right; height: 24px; background-color: #856cb9; padding: 0 16px; font-family: "Karla", sans-serif; font-size: 14px; line-height: 24px; color: #fff; text-transform: uppercase; font-weight: 700; text-decoration: none;
+	-webkit-transition: all 0.4s;
+	     -o-transition: all 0.4s;
+	        transition: all 0.4s;
+}
+.comment .link:hover { opacity: .8; }
+.comment p { clear: both; margin-bottom: 0; }
+
+/*Section Add Comment*/
+.section-add-comment { margin-bottom: 122px; }
+.section-add-comment .section-body { padding: 38px 36px 38px 31px; background-color: #fff; }
+.form-add-comment .field { height: 44px; }
+
+
+@media(max-width: $small-desktop) {
+	.list-events { margin-right: -2%; }
+	.list-events li { width: 48%; margin: 0 2% 25px 0; }
+
+	.list-event-meta li { padding: 13px 5px; }
+	.section-event-comments .section-body { padding: 30px 21px; }
+	.comments .comments { margin-left: 30px; }
+	
+	.section-services .ad { margin-top: 0; }
+
+}
+
+@media(max-width: $tablet) {
+	.form-appointment .form-row { padding: 0 15px; }
+
+	.section-information:after,
+	.section-information:before { display: none; }
+
+	.section-information .grey { background-color: $secondary-bg; }
+	.section-information .blue { background-color: $primary-bg; }
+
+	.section-about-us,
+	.section-features { padding: 100px 0; min-height: 0; }
+
+	.section-doctors { padding-bottom: 130px; }
+	.section-doctors-alt { padding-bottom: 0; }
+	.doctor-body { padding: 0 12px 12px; }
+	.doctor-name { display: block; }
+	.doctor-body .socials,
+	.doctor-body h6 { float: none; display: block; margin-bottom: 5px; }
+	.doctor-body h6 { max-width: 100%; }
+
+	.section-services { padding-bottom: 0; }
+
+	.section-testimonials { padding: 40px 0 100px; }
+	.section-updates { padding-bottom: 60px; }
+	.section-doctors-alt .ad { margin-top: 0; }
+	.service-body { padding: 15px 20px; }
+
+	.list-event-meta { display: block; font-size: 0; line-height: 0; }
+	.list-event-meta li { display: inline-block; vertical-align: top; width: 50%; }
+	.list-event-meta li + li { border: none; }
+
+	.article-single-event .list-checks { margin-bottom: 30px;
+	-webkit-column-count: 1;
+       -moz-column-count: 1; 
+    		column-count: 1;
+	}
+}
+
+@media(max-width: $mobile) {
+	.section-book-appointment { padding-bottom: 30px; }
+	.form-appointment .form-head { margin-bottom: 20px; }
+
+	.service-image { max-height: none; height: auto; }
+
+	.event .mejs-controls div.mejs-time-rail { width: calc(100% - 172px) !important; margin-right: 10px; }
+
+	.list-event-meta li { width: 100%; }
+
+	.comment { position: relative; }
+	.comment-image { float: none; display: block; }
+	.comment-body { overflow: visible; }
+	.comment .link { position: absolute; top: 35px; right: 0; }
+	.comment:first-child .link,
+	.comment .comment .link { top: 0; }
+}
+
+@media(max-width: $small-mobile) {
+	.form-appointment .form-head { text-align: center; }
+	.form-appointment .form-head .columns { margin-bottom: 20px; }
+	.form-appointment .form-head .fa-calendar,
+	.form-appointment .form-head h3,
+	.form-appointment .phone { float: none; display: inline-block; }
+
+	.form-appointment .form-cols { margin-right: 0; }
+	.form-appointment .form-col { width: 100%; margin: 0 0 26px 0; }
+
+	.paging { margin: 20px 0; }
+	
+	.section-doctors .columns { margin-bottom: 15px; }
+	.section-doctors .tab-body .row { margin-bottom: 15px; }
+	.section-services.section-doctors .row:last-child { margin-bottom: 0; }
+	.section-doctors .tab-body .columns:last-child { margin-bottom: 0; }
+	.doctor-image img { max-height: none; }
+
+	.section-about-us { background: none !important; }
+
+	.list-events li { width: 100%; margin-right: 0; }
+
+	.form-row-alt { float: none; display: block; width: 100%; }
+	.form-row-alt + .form-row-alt { margin-left: 0; }
+	.section-add-comment { margin-bottom: 30px; }
+
+	.comment h4 .meta { display: block; margin-left: 0; }
+	.section-doctors-alt .row { margin-bottom: 0; }
+}

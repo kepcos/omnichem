@@ -1,0 +1,14 @@
+/* ------------------------------------------------------------ *\
+	Main
+\* ------------------------------------------------------------ */
+
+.main { position: relative; z-index: 20; padding-bottom: 445px; }
+.main .large-12 > .breadcrumbs { margin-top: 17px; }
+.main.grey { background-color: #f0f4f7; }
+
+.content .paging { margin-bottom: 96px; }
+
+@media(max-width: $tablet) {
+	.main { padding-bottom: 0; }
+	.content .paging { margin-bottom: 39px; }
+}
