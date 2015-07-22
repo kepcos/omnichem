@@ -11600,7 +11600,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .header .phone {
-  min-width: 180px;
+  min-width: 210px;
 }
 
 .logo {
@@ -11952,7 +11952,7 @@ a.logo:hover {
 .main {
   position: relative;
   z-index: 20;
-  padding-bottom: 445px;
+  padding-bottom: 170px;
 }
 
 .main .large-12 > .breadcrumbs {
@@ -13377,8 +13377,8 @@ a.logo:hover {
   left: 0;
   right: 0;
   z-index: 60;
-  height: 445px;
-  padding-top: 83px;
+  height: 170px;
+  padding-top: 0px;
   background-color: #54667a;
 }
 
@@ -13468,7 +13468,7 @@ a.logo:hover {
 .copyright {
   padding-top: 20px;
   border-top: 1px solid #5c6f83;
-  margin-top: 97px;
+  margin-top: 40px;
   text-align: center;
 }
 

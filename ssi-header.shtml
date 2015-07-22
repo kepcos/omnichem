@@ -64,6 +64,10 @@
 						<li>
 							<a href="la-empresa.html">LA EMPRESA</a>
 						</li>
+
+						<li>
+							<a href="productos-quimicos.html">PRODUCTOS QUIMICOS</a>
+						</li>
 						
 
 <!--
@@ -173,8 +177,8 @@
 			<div class="columns large-2 medium-4 mobile-hidden">
 				<p class="phone">
 					<i class="fa fa-mobile"></i>
-					<small>Call Us</small>
-					<a href='tel: 514 908 9010'>514 908 9010</a>					
+					<small>Llámenos</small>
+					<a href='tel: 514 908 9010'>(511)437-5712</a>					
 				</p><!-- /.phone -->
 			</div><!-- /.columns large-3 -->
 		</div><!-- /.row -->
